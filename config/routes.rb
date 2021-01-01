@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Railsguide32::Application.routes.draw do
   resources :posts
 

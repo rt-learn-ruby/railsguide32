@@ -1,4 +1,5 @@
-#
+# frozen_string_literal: true
+
 class Post < ActiveRecord::Base
   attr_accessible :content, :name, :title, :tags_attributes
 

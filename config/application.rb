@@ -1,4 +1,6 @@
-require File.expand_path('../boot', __FILE__)
+# frozen_string_literal: true
+
+require File.expand_path('boot', __dir__)
 
 require 'rails/all'
 
@@ -58,5 +60,11 @@ module Railsguide32
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Workaround a vulnerability.
+    config.assets.compile = false
+    config.public_file_server.enabled = true
   end
 end
+
+
