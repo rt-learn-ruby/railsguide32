@@ -1,6 +1,6 @@
 # Overview
 
-Example project based on rails guide 32.
+Example project based on rails guide 32. No longer supported at this time.
 
 ## Installation
 
